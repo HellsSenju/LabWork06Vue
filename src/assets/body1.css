@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+}
+
+.imageBody{
+    width: 70%;
+    margin-left: 228px;
+    margin-right: 228px;
+}
+
+.history{
+	width: 70%;
+	margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dbb785;
+    font:  sans-serif;
+}
+
+.history article{
+    color: #ffff;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font: sans-serif;
+    font-size: 16pt;
+}
+
+.history h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #55567b;
+    font-size: 30pt;
+    font: sans-serif;
+}
+
+.geography{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	margin-top: 30px;
+    background-color: #dbb785;
+    font:  sans-serif;
+}
+
+.geography h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #55567b;
+    font-size: 30pt;
+}
+
+.geography article{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: #ffff;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-size: 16pt;
+}
+
+.strategy{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	margin-top: 30px;
+    background-color: #dbb785;
+    font:  sans-serif;
+}
+
+.strategy h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #55567b;
+    font-size: 30pt;
+}
+
+.strategy article{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: #ffff;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-size: 16pt;
+}
+
+.strategy p{
+    color: #55567b;
+    font-size: 18pt;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.strategy ul{
+    color: #ffff;
+    font-size: 20pt;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    font-size: 16pt;
+}
+
+@media screen and (max-width: 1100px) {
+    .imageBody{
+    width: 100vw;
+    margin: 0;
+    }
+    
+    .history{
+    width: 100vw;
+    }
+    
+    .geography{
+    width: 100vw;
+    }
+    
+    .strategy{
+    width: 100vw;
+    }
+}
+
+
+/* розовый: #ee8373
+фиолетовый: #55567b
+темно коричневый: #dbb785
+светло коричневый: #faf3b7  */

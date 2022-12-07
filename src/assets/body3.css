@@ -1,0 +1,62 @@
+body {
+	font-family: sans-serif;
+}
+
+.toMeeting{
+	height: 50px;
+    margin-bottom: 50px;
+	width: 80%;
+	background-color: #dbb785;
+	padding-top: 10px;
+}
+
+.toMeeting a{
+	
+	color: #ffff;
+    font: sans-serif;
+    font-size: 16pt;
+}
+
+.fs-1{
+	font-size: 40pt;
+    color: #55567b;
+}
+
+.fs-2{
+	font-size: 30pt;
+    color: #55567b;
+}
+
+h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30pt;
+    color: #55567b;
+}
+
+article{
+	width: 80%;
+    background-color: #ee8373;
+    color: #ffff;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font:sans-serif;
+    font-size: 16pt;
+}
+
+@media screen and (max-width: 1100px) {
+    .toMeeting{
+    width: 100vw;
+    }
+
+    article{
+        width: 100vw;
+        }
+    
+    .ystav{
+    width: 100vw;
+    }
+
+}
