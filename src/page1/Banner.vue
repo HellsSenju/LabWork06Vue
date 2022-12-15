@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div id="banner"><img class="hide" src="img/banner1.png"/><img class="hide" src="img/banner2.png"/><img class="hide" src="img/banner3.png"/></div>
+    <div id="banner"><img class="hide" src="../img/banner1.png"/><img class="hide" src="../img/banner2.png"/><img class="hide" src="../img/banner3.png"/></div>
 </template>
 
 <style scoped>
