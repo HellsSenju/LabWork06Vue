@@ -1,9 +1,15 @@
 <script setup>
+import Header from './general/Header.vue'
+import Navigation from './general/Navigation.vue'
+import Footer from './general/Footer.vue'
 
 </script>
 
 <template>
+    <Header />  
+    <Navigation />
 
+    <Footer />
 </template>
 
 <style scoped>
